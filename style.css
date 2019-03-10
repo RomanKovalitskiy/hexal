@@ -52,7 +52,7 @@ header li:nth-child(2):before , header li:nth-child(5):before {
 }
 
 header a{
-	font-family: ﻿Lato;
+	font-family: ﻿Lato, sans-serif;
 	font-weight: bold;
 	font-size: 7.21379pt;
 	color: rgba(255, 255, 255, 255);
@@ -185,7 +185,10 @@ hr {
 	width: 960px;
 	border: 1px solid #e4e9eb;
 	margin: 11px auto;
-
+}
+ 
+.line_triangle_line hr{
+	margin: 11px auto;
 }
 
 .square_slider {
@@ -215,23 +218,8 @@ article {
 
 .section_info {
 	height: 316px;
-	margin: 0px;
+	margin-top: 13px;
 	background-color: #219d84;
-}
-
-.hex_layer_1 {
-	width: 100%;
-	height: 100%;	
-	transform: rotate(-60deg);
-	overflow: hidden;
-	visibility: hidden;
-}
-
-.hex_layer_2 {
-	width: 100%;
-	height: 100%;
-	transform: rotate(-60deg);	
-	visibility: visible;
 }
 
 .smith_anderson {
@@ -242,3 +230,184 @@ article {
 .info .hexagon, .hexagon:hover{
 	transition: none;
 }
+
+.hexagon_section_info{
+ 	margin: auto 0px auto 20px;
+ }
+
+.info_text {
+	width: 581px;
+	margin: auto 20px;
+}
+
+.info_text h3{
+	font-family: ﻿MavenPro, sans-serif;
+	font-size: 30px;
+	color: #d7fcf5;
+}
+
+.info_text p {
+	font-family: ﻿MavenPro, sans-serif;
+	font-size: 18px;
+	color: #20816d;
+}
+
+.info_text p+p {
+	font-family: ﻿Lato, sans-serif;
+	font-size: 12px;
+	color: #d7fcf5;
+	text-align: justify;
+	margin-top: 18px;
+	line-height: 1.8;
+}
+
+.social{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 40px;
+}
+
+.social a{
+	width: 25px;
+	height: 25px;
+	opacity: 0.2;
+}
+
+.social a:hover{
+	opacity: 1;
+}
+
+.top_footer{
+	background-color: #323232;
+}
+
+.hr_footer {
+	margin: 0px auto;
+	height: 13px;
+	width: 960px;
+}
+
+.hr_footer:first-child {
+	border-bottom: 1px solid #2b2b2b;
+}
+
+.hr_footer:last-child {
+	border-top: 1px solid #2b2b2b;
+}
+
+.footer_info {
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	width: 580px;
+	margin: 53px 20px;
+}
+
+fieldset {
+	border:none;
+}
+
+legend {
+	font-family: ﻿MavenPro, sans-serif;
+	font-size: 30px;
+	color: #e0e0e0;
+}
+
+fieldset p{
+	font-family: ﻿MavenPro, sans-serif;
+	font-size: 18px;
+	color: #bebebe;
+	text-align: justify;
+}
+
+form input, textarea {
+	width: 100%;
+	margin-top: 16px;
+	background-color: #454545;
+	border: none;
+	padding-left: 15px;
+}
+
+form input:focus, textarea:focus {
+	color: white;
+}
+
+form input {
+	height: 38px;
+	margin-top: 16px;
+}
+
+form textarea {
+	height: 150px;
+	padding-left: 15px;
+	padding-top: 13px;
+	resize:none;
+}
+
+button {
+	background-color: #2eb398;
+	font-family: ﻿Lato, sans-serif;
+	font-size: 12pt;
+	color: rgba(215, 252, 245, 255);
+	margin-top: 16px;	
+	border: none;	
+	padding: 14px 30px ;
+	margin-right: 0px;
+	cursor: pointer;
+}
+
+.button {
+	display: flex;
+	justify-content: flex-end;
+	cursor: pointer;
+}
+
+.bottom_footer {
+	height: 43px;
+	background-color: #222222;
+}
+
+.bottom_footer p{
+	font-family: MavenPro, sans-serif;
+	font-size: 8.65655pt;
+	color: rgba(69, 69, 69, 255);
+	padding: 16px 30px;
+}
+
+.form_info {
+	width: 180px;
+	margin-top: 120px;
+	font-family: ﻿Lato, sans-serif;
+	font-size: 12px;
+	line-height: 1.8;
+	color: #ababab;
+	text-align: justify;
+}
+
+table {
+	margin-top: 27px;
+}
+
+.form_info td{
+	padding-top: 11px ;
+}
+
+.form_info tr td:first-child{
+	width: 14px;
+	height: 8px;
+	text-align: center;
+	padding: 11px 11px 0px 0px;
+}
+
+.form_info a{
+	text-decoration: none;
+	font-family: ﻿Lato, sans-serif;
+	font-size: 12px;
+	color: rgba(190, 190, 190, 255);
+}
+
+
+
+
